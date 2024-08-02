@@ -5,3 +5,4 @@ database.py
 others
 redis/data/appendonlydir
 redis/data/redis_dump.rdb
+bot

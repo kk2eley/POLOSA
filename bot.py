@@ -24,7 +24,7 @@ async def main():
 
     await menu_keys.set_users_main_menu(bot)
     # Инициализируем aioredis
-    redis = await aioredis.Redis(host='redis', port=6379, db=0)
+    redis = await aioredis.Redis(host='localhost', port=6379, db=0)
     storage = RedisStorage(redis=redis)
     dp = Dispatcher(storage=storage)
     dp['redis'] = redis
