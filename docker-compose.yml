@@ -14,7 +14,7 @@ services:
       - REDIS_PORT=6379
     volumes:
       - ./bot:/usr/src/app
-      - ./photos:/usr/src/app/photos
+      - ../photos:/usr/src/app/photos
     networks:
       - botnet
 

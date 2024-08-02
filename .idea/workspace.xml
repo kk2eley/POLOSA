@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="542a7215-0da0-4460-b1a3-fb5a49e6ea6b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/basket.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/basket.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/data_operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_operations.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +48,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/redis" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/redis" />
     </key>
   </component>
   <component name="RunManager" selected="Python.bot">

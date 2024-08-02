@@ -5,7 +5,7 @@ from aiogram import F
 import json
 from keyboards.basket_keys import create_value_buttons, BasketCallbackFactory, create_buy_button
 import logging
-from redis.data_operations import load_data, dump_data, load_basket, dump_basket
+from data_operations import load_data, dump_data, load_basket, dump_basket
 from aiogram.fsm.context import FSMContext
 
 router = Router()
